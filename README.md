@@ -41,11 +41,11 @@ Usage
 		},
 		{
 			"Algo": "ecdsa-sha2-nistp384",
-			"err": "ssh: no common algorithms"
+			"Err": "ssh: no common algorithms"
 		},
 		{
 			"Algo": "ecdsa-sha2-nistp521",
-			"err": "ssh: no common algorithms"
+			"Err": "ssh: no common algorithms"
 		}
 	]
 	$
