@@ -12,10 +12,7 @@ func usage(msg string) {
 }
 
 func main() {
-	config := &ClientConfig{
-		User: "xbmc",
-		Auth: []ClientAuth{},
-	}
+	config := &ClientConfig{}
 	if len(os.Args) < 2 {
 		usage("Usage: <host:port>")
 	}
