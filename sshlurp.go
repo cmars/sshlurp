@@ -23,7 +23,7 @@ type SlurpKey struct {
 	Algo        string `json:",omitempty"`
 	Fingerprint string `json:",omitempty"`
 	HostKey     string `json:",omitempty"`
-	Err         string `json:"err,omitempty"`
+	Err         string `json:",omitempty"`
 }
 
 func main() {
