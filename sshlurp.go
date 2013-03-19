@@ -23,5 +23,10 @@ func main() {
 	if err != nil {
 		usage("Failed to dial: " + err.Error())
 	}
-	fmt.Printf("%x\n", key)
+	hk, err := ParseHostKey(key)
+	if err != nil {
+		usage("Failed to parse host key: " + err.Error())
+	}
+	fmt.Printf("%v\n", hk.Fingerprint())
+	fmt.Printf("%v\n", hk.String())
 }

@@ -28,7 +28,7 @@ Why?
 TODO
 ----
 
-* Format the key in SSH known hosts format.
+* Force public key algorithm.
 * IP range collection in parallel, because goroutines.
 * Extract more server details like version string, supported ciphers, etc.
 * Output JSON format.
